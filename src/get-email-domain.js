@@ -19,9 +19,7 @@ function getEmailDomain(email) {
 
   const re = /(?<=\@)[\w-]+.\w+/gm;
   const arr = re.exec(email);
-
   return arr[0];
-
 
 }
 
